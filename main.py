@@ -13,7 +13,7 @@ def main():
     # Step 2: Find the extreme outliers using Z-scores
     print("Detecting extreme weather events...")
     anomalies = anomaly_detector.findanomalies(clean_data)
-    print("Found {len(anomalies)} extreme rainfall events.")
+    print(f"Found ({len(anomalies)}) extreme rainfall events.")
     
     # Step 3: Visualize the trend and calculate the slope
     print("Graphing trends and calculating risk...")

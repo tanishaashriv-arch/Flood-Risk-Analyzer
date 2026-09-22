@@ -49,3 +49,24 @@ pip install pandas numpy matplotlib
 
 3. Run the main script from your terminal:
 python main.py
+
+# Instructions for Testing 
+1. Ensure your sample dataset is correctly placed in the data/ directory as rainfall.csv
+
+2. Execute python main.py in your terminal
+
+3. Verify that the console prints the correct number of rows processed and the exact count of anomalies found
+
+4. Confirm that a Matplotlib window opens displaying the scatter plot, trendline, and automated conclusion box
+
+5. lose the graph window to allow the script to complete its execution
+
+# Screenshots 
+![Terminal Output](Images/terminal_output.png)
+![Data Visualization](Images/data_visualization.png)
+
+# Features
+* Data Processing: Automatically loads historical weather data, cleans missing values, and extracts relevant columns.
+* Statistical Anomaly Detection: Calculates Z-scores to identify and filter extreme rainfall events.
+* Automated Trend Analysis: Uses linear regression to determine if the intensity of extreme events is shifting over time.
+* Data Visualization: Generates a custom scatter plot with a line of best fit and an embedded automated conclusion.
